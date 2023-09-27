@@ -103,9 +103,33 @@
 
 // nameArr.map((name) => console.log(name));
 
-const numArr = [1, 2, 3, 4, 5];
-const newNumArr = numArr.filter((num) => {
-  return num % 2 === 1;
-});
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
 
-console.log(newNumArr);
+// console.log(newNumArr);
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "じゃけえ") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
+
+// const val1 = 1 < 0 ? "trueです" : "falseです";
+// console.log(val1);
+
+// const num = "1300";
+// console.log(num.toLocaleString());
+
+// const formattedNum =
+//   typeof num === "number" ? num.toLocaleString() : "数値を入力して下さい";
+// console.log(formattedNum);
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています。" : "許容範囲内です。";
+// };
+// console.log(checkSum(10, 100));
